@@ -300,11 +300,11 @@ function App() {
         ) : isExpertise ? (
           <>
             <section className="card page-hero expertise-hero">
-              <SectionHeading
-                eyebrow="Expertise Page"
-                title="Different cards for every skill component"
-                description="This page focuses only on services and specialties, giving the website a cleaner multi-page experience."
-              />
+             <SectionHeading
+  eyebrow="Digital Marketing Expertise"
+  title="SEO, Social Media & PPC Marketing Specialist"
+  description="Experienced digital marketing executive with 3+ years of experience in SEO, social media marketing, PPC advertising, and performance analytics, helping businesses increase visibility, engagement, and conversions."
+/>
               <div className="tag-grid">
                 {services.map((service) => (
                   <span key={service}>{service}</span>
